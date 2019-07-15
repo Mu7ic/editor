@@ -11,13 +11,13 @@ Editor — свободный WYSIWYG-редактор, который може�
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist mu7ic/editor "*"
+php composer.phar require --prefer-dist muzich/first-editor "*"
 ```
 
 или добавить
 
 ```json
-"mu7ic/editor": "*"
+"muzich/first-editor": "*"
 ```
 
 в разделе `require` вашего composer.json файла.
