@@ -14,8 +14,16 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {"muzich\\first\\": "php/"}
+    },
     "require": {
-        "php": ">=7.0",
         "yiisoft/yii2": "*"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }
