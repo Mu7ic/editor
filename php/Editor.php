@@ -15,6 +15,6 @@ use Yii;
 class Editor extends Component
 {
     public function demo(){
-        return Yii::$app->view->renderFile(Yii::getAlias('@app') . '/views/site/index.php');
+        return Yii::$app->view->renderFile(Yii::getAlias('@app') . '/vendor/muzich/first-editor/meditor.php');
     }
 }
