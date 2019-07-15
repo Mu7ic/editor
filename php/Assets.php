@@ -9,8 +9,8 @@ namespace muzich\first;
 use yii\web\AssetBundle;
 
 class Assets extends AssetBundle{
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@muzich/first-editor/';
+
     public $css = [
         'editor.css',
     ];
