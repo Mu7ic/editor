@@ -16,8 +16,6 @@ class Editor extends Component
 {
     public function demo(){
 
-        Assets::register(Yii::getAlias('@app') . '/vendor/muzich/first-editor/meditor.php');
-
         return Yii::$app->view->renderFile(Yii::getAlias('@app') . '/vendor/muzich/first-editor/meditor.php');
     }
 }

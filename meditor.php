@@ -1,7 +1,7 @@
 <?php
 use Yii;
-use app\assets\AppAsset;
-AppAsset::register($this);
+use muzich\first\Assets;
+Assets::register($this);
 ?>
 
 <html>
