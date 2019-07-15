@@ -1,0 +1,29 @@
+{
+    "name": "muzich/first-editor",
+    "keywords": ["yii", "wysiwyg", "editor"],
+    "description": "Yii2 Editor",
+    "homepage": "https://github.com/Mu7ic/editor",
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "Muzich",
+            "email": "m928344074@gmail.com",
+            "homepage": "https://github.com/Mu7ic",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"mihaildev\\ckeditor\\": ""}
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
